@@ -1,4 +1,4 @@
-package com.ludeman.gameoflife;
+package com.talinapps.gameoflife;
 
 import android.content.Context;
 import android.graphics.*;

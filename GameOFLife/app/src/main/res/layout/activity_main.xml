@@ -26,7 +26,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"/>
 
-    <com.ludeman.gameoflife.Mapper
+    <com.talinapps.gameoflife.Mapper
             android:id="@+id/mapper"
             android:layout_marginTop="@dimen/grid_margin"
             app:layout_constraintTop_toBottomOf="@id/button"

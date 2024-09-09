@@ -1,4 +1,4 @@
-package com.ludeman.gameoflife
+package com.talinapps.gameoflife
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -17,12 +17,12 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.button)
 
         button.setOnClickListener {
-            when {
-                button.text == getText(R.string.start_button_label) -> {
+            when (button.text) {
+                getText(R.string.start_button_label) -> {
                     mapper.start()
                     button.text = getText(R.string.pause_button_label)
                 }
-                button.text == getText(R.string.pause_button_label) -> {
+                getText(R.string.pause_button_label) -> {
                     mapper.stop()
                     button.text = getText(R.string.resume_button_label)
                 }

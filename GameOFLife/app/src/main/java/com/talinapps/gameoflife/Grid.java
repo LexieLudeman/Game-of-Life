@@ -1,4 +1,4 @@
-package com.ludeman.gameoflife;
+package com.talinapps.gameoflife;
 
 import java.util.ArrayList;
 import java.util.List;
